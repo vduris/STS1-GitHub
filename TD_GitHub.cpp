@@ -53,7 +53,64 @@ int plusGrand(int a, int b, int c)
         return resultat;
 }
 //Fonctions réalisées par l'étudiant 2 :
+bool estPair(int nb)
+{
+    bool resultat;
 
+    int calcul;
+
+    calcul = nb % 2;
+
+    if (calcul == 1)
+    {
+        resultat = false;
+    }
+    else if(calcul == 0)
+    {
+        resultat = true;
+    }
+    return resultat;
+}
+
+int sommeNombre(int nb)
+{
+    int resultat = 0;
+
+    for (int i = nb; i >= 0; i--)
+    {
+        resultat += i;
+    }
+
+    return resultat;
+}
+
+float salaireNet(int salaire)
+{
+    int resultat;
+
+    resultat = salaire * 0.77;
+
+    return resultat;
+}
+
+int plusPetit(int a, int b, int c)
+{
+    int resultat;
+
+    resultat = a;
+
+    if (b < resultat)
+    {
+        resultat = b;
+    }
+
+    if (c < resultat)
+    {
+        resultat = c;
+    }
+
+    return resultat;
+}
 
 
 
