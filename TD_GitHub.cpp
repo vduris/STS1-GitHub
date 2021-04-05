@@ -112,12 +112,4 @@ int plusPetit(int a, int b, int c)
     return resultat;
 }
 
-
-
-
-
-
-
-
-
 //Fonctions réalisées par l'étudiant 3 :
